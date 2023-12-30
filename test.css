@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(122, 122, 122);
+}
+h1 {
+    color: aqua;
+    text-align: center;
+}
+.menu a{
+    position: center;
+    display: block;
+    color: rgb(44, 98, 103);
+    text-decoration: none;
+    padding: 10px 15px ;
+    float: right;
+}
+.menu1 {
+   background-color: rgb(189, 223, 238); 
+}
+.mod:hover {
+    background-color: aliceblue;
+}
+.part:hover {
+    background-color: aliceblue;
+}
+.contact:hover {
+    background-color: aliceblue;
+}
