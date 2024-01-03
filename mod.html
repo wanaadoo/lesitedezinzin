@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Wanabur Ps</title>
     <link rel="stylesheet" href="test.css">
+    <script src="wanabur.js"></script>
 </head>
 <body>
 
@@ -29,9 +30,8 @@
 
         <barre-de-recherche>
             <form class="search" action="#" method="get">
-                <input type="text" class="search_bar"
-                    placeholder="Search..."/>&nbsp;&nbsp;
-                <button  class="search_button" type="submit">🔎</button>
+                <input type="text" id="search-bar" class="search_bar" value="" onchange="chercher_vt()" placeholder="Search..."/>&nbsp;&nbsp;
+                <button class="search_button" type="submit" onclick="chercher_vt()">🔎</button>
             </form>
         </barre-de-recherche>
 
