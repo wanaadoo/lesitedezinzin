@@ -157,3 +157,8 @@ h1 {
     transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
 }   
+/* vortex */ 
+.img_presentation {
+    height: 150px;
+    margin-left: 44%;
+}
