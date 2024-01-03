@@ -23,6 +23,7 @@ const
 permutations=permute(word);
 
 const word2= 'japen'
+const word3= ''
 
 function chercher() {
     var a = document.getElementById("search-bar").value.toLowerCase();
