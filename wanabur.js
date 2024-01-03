@@ -1,3 +1,29 @@
+function permute(str) {
+    const result = [];
+
+    function generatePermutations(current, remaining) {
+        if (remaining.length === 0) {
+            result.push(current);
+            return;
+        }
+
+        for (let i = 0; i < remaining.length; i++) {
+            const updatedCurrent = current + remaining[i];
+            const updatedRemaining = remaining.slice(0, i) + remaining.slice(i + 1);
+            generatePermutations(updatedCurrent, updatedRemaining);
+        }
+    }
+
+    generatePermutations('', str);
+    return result;
+}
+
+const word = 'vortex';
+const
+permutations=permute(word);
+
+const word2= 'japen'
+
 function chercher() {
     var a = document.getElementById("search-bar").value.toLowerCase();
 
@@ -5,7 +31,7 @@ function chercher() {
         window.open("japen.html");
     }
 
-    if (["vortex", "vt", "Vortex", "VT", "VORTEX", "VORETEX", "vT", "Vt", "voretex", "modder", "VOrtex", "VORtex", "VORTex", "VORTEx"].includes(a)) {
+    if (permutations.includes(a)) {
         window.open("vortex.html");
     }
 }
