@@ -19,8 +19,9 @@
     margin: 5px;
     text-decoration: none;
 }
-/* Si tu peux essaye de faire augmenter la taille des box quand on les hover si tu peux ! Et rajoute les couleurs de css que tu veux là c juste que j'avais la flm ça m'as déjà pris longtemps . 
-.boite_jap:hover, .boite_jap1:hover , .boite_jap2:hover, .boite_jap3:hover ,.boite_jap4:hover ,.boite_jap5:hover ,.boite_jap6:hover ,.boite_jap7:hover ,.boite_jap8:hover ,.boite_jap9:hover ,.boite_jap10:hover ,.boite_jap11:hover ,.boite_jap12:hover ,.boite_jap13:hover ,.boite_jap14:hover ,.boite_jap15:hover ,.boite_jap16:hover ,.boite_jap17:hover ,.boite_jap18:hover {
-    width: 600px;
-    height: 400px;
-}*/
+.vidéo_jap_1 {
+    margin-left: 40%;
+}
+h2 {
+    color: (159, 255, 255);
+}
