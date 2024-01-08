@@ -28,12 +28,12 @@ h2 {
 .Username {
     position: absolute;
     top: 40%;
-    left:432px;
+    left:419px;
 }
 .Password {
     position: absolute;
     top: 50%;
-    left: 435px;
+    left: 440px;
 }
 .user_box {
     width: 400px;
@@ -53,4 +53,25 @@ h2 {
     border-radius:20px;
     background-color:rgb(148, 157, 233) ;
     padding: 8px;
+}
+.google_icon {
+    color: black;
+    margin-right: 10px;
+}
+.google_account {
+    display: flex;
+    align-items: center;
+    margin-left: -130px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    height: 35px;
+    width: 200px;
+}
+p {
+    text-decoration: none;
+}
+.text_google {
+    text-decoration: none;
 }
