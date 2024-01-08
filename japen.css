@@ -1,17 +1,20 @@
+body {
+    text-decoration: none;
+}
 .boite_jap, .boite_jap1 , .boite_jap2, .boite_jap3 ,.boite_jap4 ,.boite_jap5 ,.boite_jap6 ,.boite_jap7 ,.boite_jap8 ,.boite_jap9 ,.boite_jap10 ,.boite_jap11 ,.boite_jap12 ,.boite_jap13 ,.boite_jap14 ,.boite_jap15 ,.boite_jap16 ,.boite_jap17 ,.boite_jap18 {
     display: inline-block;
     width: 300px;
     height: 200px;
-    background-color: rgb(181, 19, 181);
+    background-color: rgb(100, 191, 219);
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 1px;
-    text-decoration: none; /* Supprimer le soulignement du lien */
+    text-decoration: none; 
     color: black;
-    vertical-align: top; /* Aligner le contenu en haut de chaque boîte */
+    vertical-align: top; 
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; 
 }
 .boite_jap p, .boite_jap h4, .boite_jap1 p, .boite_jap1 h4 , .boite_jap2 p, .boite_jap2 h4, .boite_jap3 p, .boite_jap3 h4,.boite_jap4 p, .boite_jap4 h4,.boite_jap5 p, .boite_jap5 h4,.boite_jap6 p, .boite_jap6 h4,.boite_jap7 p, .boite_jap7 h4,.boite_jap8 p, .boite_jap8 h4,.boite_jap9 p, .boite_jap9 h4,.boite_jap10 p, .boite_jap10 h4,.boite_jap11 p, .boite_jap11 h4,.boite_jap12 p, .boite_jap12 h4,.boite_jap13 p, .boite_jap13 h4,.boite_jap14 p, .boite_jap14 h4,.boite_jap15 p, .boite_jap15 h4,.boite_jap16 p, .boite_jap16 h4,.boite_jap17 p, .boite_jap17 h4,.boite_jap18 p, .boite_jap18 h4 {
     color: rgb(0, 0, 0);
@@ -21,7 +24,12 @@
 }
 .vidéo_jap_1 {
     margin-left: 40%;
+    text-decoration: none;
 }
 h2 {
     color: (159, 255, 255);
+    text-decoration: none;
+}
+.choix_japen {
+    text-decoration: none;
 }

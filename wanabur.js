@@ -19,29 +19,9 @@ function permute(str) {
 }
 
 const word = 'vortex';
-const
 permutations=permute(word);
 
-const word2= 'japen'
-const word3= 'japen 1'
-const word4= 'japen 2'
-const word5= 'japen 3'
-const word6= 'japen 4'
-const word7= 'japen 5'
-const word8= 'japen 6'
-const word9= 'japen 7'
-const word10= 'japen 8'
-const word11= 'japen 9'
-const word12= 'japen 10'
-const word13= 'japen 11'
-const word14= 'japen 12'
-const word15= 'japen 13'
-const word16= 'japen 14'
-const word17= 'japen 15'
-const word18= 'japen 16'
-const word19= 'japen 17'
-const word20= 'japen 18'
-const word21= 'japen 19'
+
 
 
 
@@ -109,9 +89,12 @@ function chercher() {
     }
     if (["japen 18", "japne 18", "japan 18", "japEN 18", "JAPEN 18", "japen 18th"].includes(a)) {
         window.open("/japen/japen18.html");
-    }
+    }       
     if (["japen 19", "japne 19", "japan 19", "japEN 19", "JAPEN 19", "japen 19th"].includes(a)) {
         window.open("/japen/japen19.html");
     }
     console.log("Aucune correspondance trouvée pour :", a);
 }
+
+console.log(permutations)
+

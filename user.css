@@ -1,0 +1,56 @@
+h2 {
+    color: aqua;
+    margin-top: 100px;
+    text-align:center ;
+
+}
+.login {
+    position: absolute;
+    top: 40%;
+    left: 33%;    
+}
+#password{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(153, 224, 245);
+    position: absolute;
+    left: 43%;
+    top: 53%;
+}
+#username {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(153, 224, 245);
+    position: absolute;
+    left: 43%;
+    top: 43%;
+}
+.Username {
+    position: absolute;
+    top: 40%;
+    left:432px;
+}
+.Password {
+    position: absolute;
+    top: 50%;
+    left: 435px;
+}
+.user_box {
+    width: 400px;
+    height: 400px;
+    background-color: azure;
+    border-radius: 20px;
+    border: 1px solid azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: -130px;
+    margin-left: 392px;
+}
+.create_account {
+    border-radius:20px;
+    background-color:rgb(148, 157, 233) ;
+    padding: 8px;
+}

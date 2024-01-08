@@ -174,3 +174,10 @@ h1 {
     height: 150px;
     margin-left: 44%;
 }
+/* icon */ 
+.user { 
+    position: absolute;
+    top: 17px;
+    right: -35px;
+    margin-right: none;
+}
