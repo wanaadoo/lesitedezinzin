@@ -38,7 +38,7 @@ function chercher() {
      
     if (["japen 1", "japne 1", "japan 1", "japEN 1", "JAPEN 1", "japen 1st"].includes(a)) {
         window.open("/japen/japen1.html");
-    }
+    }   
     if (["japen 2", "japne 2", "japan 2", "japEN 2", "JAPEN 2", "japen 2nd"].includes(a)) {
         window.open("/japen/japen2.html");
     }
@@ -93,8 +93,7 @@ function chercher() {
     if (["japen 19", "japne 19", "japan 19", "japEN 19", "JAPEN 19", "japen 19th"].includes(a)) {
         window.open("/japen/japen19.html");
     }
-    console.log("Aucune correspondance trouvée pour :", a);
+    window.open("/ereur.html")
 }
 
 console.log(permutations)
-

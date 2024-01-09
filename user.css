@@ -2,7 +2,6 @@ h2 {
     color: aqua;
     margin-top: 100px;
     text-align:center ;
-
 }
 .login {
     position: absolute;
@@ -50,6 +49,7 @@ h2 {
     margin-left: 392px;
 }
 .create_account {
+    margin-top: 30px;
     border-radius:20px;
     background-color:rgb(148, 157, 233) ;
     padding: 8px;
@@ -57,21 +57,62 @@ h2 {
 .google_icon {
     color: black;
     margin-right: 10px;
+    margin-bottom: 2px;
 }
 .google_account {
     display: flex;
     align-items: center;
-    margin-left: -130px;
-    text-decoration: none;
+    margin-left: -11px;
+    text-decoration: wavy;
     border-radius: 15px;
     border: none;
-    background-color: aqua;
+    background-color: rgb(153, 224, 245);
     height: 35px;
-    width: 200px;
-}
-p {
-    text-decoration: none;
+    width: 170px;   
+    margin-top: 30px ;
 }
 .text_google {
+    color: black;
+}
+a {
     text-decoration: none;
 }
+.apple_icon {
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+.apple_account {
+    display: flex;
+    align-items: center;
+    margin-left: -11px;
+    text-decoration: wavy;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(153, 224, 245);
+    height: 35px;
+    width: 170px;   
+    margin-top: 15px ;
+}
+.text_apple {
+    color: black;
+}
+.croix_quit {
+    margin-left: 370px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+.titre {
+    margin-left: 430px;
+    display: flex;
+    align-items: center;
+}
+#retour_button {
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: rgb(122, 122, 122);
+    
+}
+

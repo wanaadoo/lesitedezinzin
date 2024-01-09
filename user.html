@@ -9,10 +9,23 @@
     <script src="https://kit.fontawesome.com/acc98e9374.js" crossorigin="anonymous"></script>
 </head>
 <body>
-        <h1 class="title-shadow">Welcome to the User page !</h1>
-        
-        <h2>Sign in</h2>
-        
+        <div class="titre">
+            <h1 class="title-shadow">Welcome to the User page !</h1>
+            <button id="retour_button">
+                <i class="fa-regular fa-circle-xmark croix_quit" style="font-size: 42px; color: aqua; display: flex; align-items: center;"></i>
+            </button>
+        </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.getElementById("retour_button").addEventListener("click", function() {
+                        window.history.back();
+                    });
+                }); 
+            </script>   
+
+        <h2 >Sign in</h2>
+            
         <br><br>
         
         <div class="user_box">
@@ -27,17 +40,28 @@
             
             <br><br><br><br><br>
             
-            <p class="create_account">Create account</p>
-            <a href="google.com">
+            
+            <a href="https//google.com">
                 <div class="google_account">
-                    &nbsp;<i class="fa-brands fa-google google_icon" ></i>
-                    <p class="text_google">Sign in or Create account&nbsp;</p>
+                    &nbsp;&nbsp;<i class="fa-brands fa-google google_icon"></i>
+                    <p class="text_google">Sign in with Google&nbsp;</p>
                 </div>
             </a>
+
+            <a href="https//apple.com">
+                <div class="apple_account">
+                    &nbsp;&nbsp;<i class="fa-brands fa-apple apple_icon" style="font-size: 22px; margin-bottom: 7px;" ></i>
+                    <p class="text_apple">Sign in with Apple&nbsp;</p>
+                </div>
+            </a>
+            
+            <p class="create_account">Create account</p>
+
         </div>        
         
        
-       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br> 
+       
        
 
 
