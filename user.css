@@ -15,8 +15,10 @@ h2 {
     position: absolute;
     left: 43%;
     top: 53%;
+    height: 20px;
 }
 #username {
+    height: 20px;
     border-radius: 15px;
     border: none;
     background-color: rgb(153, 224, 245);
@@ -98,9 +100,10 @@ a {
     color: black;
 }
 .croix_quit {
-    margin-left: 370px;
-    margin-right: -20px;
-    margin-top: -20px;
+    position: absolute;
+    top: 17px;
+    right: -35px;
+    margin-right: 36px;
 }
 .titre {
     margin-left: 430px;
@@ -112,7 +115,6 @@ a {
     width: 15px;
     height: 15px;
     border: none;
-    background-color: rgb(122, 122, 122);
-    
+    background-color: rgb(122, 122, 122); 
+    margin-right: 20px;
 }
-

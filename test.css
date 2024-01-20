@@ -182,5 +182,6 @@ h1 {
     position: absolute;
     top: 17px;
     right: -35px;
-    margin-right: none;
+    margin-right: 6px;
+
 }
