@@ -1,3 +1,14 @@
+body {
+    Cursor: url("/photo/cursor.png"), auto ;
+}
+.croix {
+    justify-content: space-between;
+}
+.align {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around ;
+}
 h2 {
     color: aqua;
     margin-top: 100px;
@@ -100,10 +111,7 @@ a {
     color: black;
 }
 .croix_quit {
-    position: absolute;
-    top: 17px;
-    right: -35px;
-    margin-right: 36px;
+    justify-content: flex-end;
 }
 .titre {
     margin-left: 430px;
@@ -115,6 +123,5 @@ a {
     width: 15px;
     height: 15px;
     border: none;
-    background-color: rgb(122, 122, 122); 
-    margin-right: 20px;
+    background-color: rgb(122, 122, 122);
 }
