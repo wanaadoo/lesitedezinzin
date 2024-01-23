@@ -3,13 +3,29 @@ a {
     text-decoration: none;
 }
 body {
-    Cursor: url("/photo/cursor.png"), auto ;
     background-color: rgb(122, 122, 122);
     margin: 0;
+}
+.collab_jeb {
+    gap: 35px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
 }
 ::selection {
     color: rgb(67, 47, 195);
     background-color: rgb(189, 223, 238) ;
+}
+.error {
+    display: flex;
+    justify-content: baseline;
+    text-align: end;
+  text-align: end;
+}
+.error-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 /* hover menu */
 .menu1:hover {
@@ -130,20 +146,20 @@ h1 {
 }
 /* collab */
 .collab_description {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 .box_jeb {
     display: flex;
     width: 200px;
     height: 150px;
-    background-image: url('photo/hPPUselE_400x400.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+    background-image: url('photo/hPPUselE_400x400.jpg'); 
     background-size: cover;
     background-position: center; 
-    background-repeat: no-repeat;
     border: 2px solid #000000;
     border-radius: 8px;
     padding: 20px;
-    margin: 20px;
     text-align: center;
     text-decoration: none;
     color: #000000;

@@ -90,6 +90,8 @@ a {
     color: black;
 }
 .croix_quit {
+    display: flex;
+    text-align: end;
     justify-content: flex-end;
 }
 #retour_button {
