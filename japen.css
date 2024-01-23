@@ -32,4 +32,11 @@ h2 {
 }
 .choix_japen {
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
 }

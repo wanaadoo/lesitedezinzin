@@ -1,6 +1,12 @@
 body {
     Cursor: url("/photo/cursor.png"), auto ;
 }
+.id_box {
+        display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 .croix {
     justify-content: space-between;
 }
@@ -11,41 +17,28 @@ body {
 }
 h2 {
     color: aqua;
-    margin-top: 100px;
-    text-align:center ;
-}
-.login {
-    position: absolute;
-    top: 40%;
-    left: 33%;    
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 #password{
     border-radius: 15px;
     border: none;
     background-color: rgb(153, 224, 245);
-    position: absolute;
-    left: 43%;
-    top: 53%;
-    height: 20px;
 }
 #username {
     height: 20px;
     border-radius: 15px;
     border: none;
     background-color: rgb(153, 224, 245);
-    position: absolute;
-    left: 43%;
-    top: 43%;
 }
 .Username {
-    position: absolute;
-    top: 40%;
-    left:419px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
 }
 .Password {
-    position: absolute;
-    top: 50%;
-    left: 440px;
 }
 .user_box {
     width: 400px;
@@ -53,36 +46,26 @@ h2 {
     background-color: azure;
     border-radius: 20px;
     border: 1px solid azure;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-top: -130px;
-    margin-left: 392px;
 }
 .create_account {
-    margin-top: 30px;
     border-radius:20px;
     background-color:rgb(148, 157, 233) ;
     padding: 8px;
+    width: 100px;
 }
 .google_icon {
     color: black;
-    margin-right: 10px;
-    margin-bottom: 2px;
+    padding: 5px;
 }
 .google_account {
     display: flex;
     align-items: center;
-    margin-left: -11px;
     text-decoration: wavy;
     border-radius: 15px;
     border: none;
     background-color: rgb(153, 224, 245);
     height: 35px;
-    width: 170px;   
-    margin-top: 30px ;
+    width: 170px;
 }
 .text_google {
     color: black;
@@ -92,31 +75,22 @@ a {
 }
 .apple_icon {
     color: black;
-    margin-right: 10px;
-    margin-bottom: 2px;
+    padding: 5px;
 }
 .apple_account {
     display: flex;
-    align-items: center;
-    margin-left: -11px;
-    text-decoration: wavy;
+    align-items: center; 
     border-radius: 15px;
     border: none;
     background-color: rgb(153, 224, 245);
     height: 35px;
-    width: 170px;   
-    margin-top: 15px ;
+    width: 170px;
 }
 .text_apple {
     color: black;
 }
 .croix_quit {
     justify-content: flex-end;
-}
-.titre {
-    margin-left: 430px;
-    display: flex;
-    align-items: center;
 }
 #retour_button {
     border-radius: 50px;
