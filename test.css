@@ -16,6 +16,11 @@ body {
     color: rgb(67, 47, 195);
     background-color: rgb(189, 223, 238) ;
 }
+/*
+.menu {
+    transform: scale(1.5);
+}
+*/
 .error {
     display: flex;
     justify-content: baseline;
@@ -69,12 +74,14 @@ body {
     margin-top: 12px;
 }
 .menu a{
-    position: center;
     display: block;
     color: rgb(44, 98, 103);
     text-decoration: none;
     margin-top: 5px;
-    padding: 10px 15px ;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
     float: right;
 }
 .activer {
@@ -152,7 +159,7 @@ h1 {
 }
 .box_jeb {
     display: flex;
-    width: 200px;
+    width: 150px;
     height: 150px;
     background-image: url('photo/hPPUselE_400x400.jpg'); 
     background-size: cover;
