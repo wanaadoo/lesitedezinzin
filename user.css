@@ -22,7 +22,7 @@ body {
     padding: 2px;
     translate: 0.625rem 0.625rem;
     color: #030104;
-    background-color: azure;
+    background-color: rgb(153, 221, 242);
     padding-inline: 0.25rem -1rem;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -59,7 +59,7 @@ label {
     padding: 2px;
     translate: 0.625rem 0.625rem;
     color: #030104;
-    background-color: azure;
+    background-color: rgb(153, 221, 242);
     padding-inline: 0.25rem -1rem;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -97,7 +97,7 @@ label {
     justify-content: space-around ;
 }
 h2 {
-    color: aqua;
+    color: black;
     padding-top:0px;
     display: flex;
     position: relative;
@@ -107,9 +107,9 @@ h2 {
 .user_box {
     width: 400px;
     height: 400px;
-    background-color: azure;
+    background-color: rgb(201, 233, 233);
     border-radius: 20px;
-    border: 1px solid azure;
+    border: 3px solid black;
 }
 .create_account {
     border-radius:20px;
@@ -120,6 +120,7 @@ h2 {
     position: relative;
     top: 20%;
     left: 35%;
+    border: 2px solid black;
 }
 .google_icon {
     color: black;
@@ -130,7 +131,7 @@ h2 {
     align-items: center;
     text-decoration: wavy;
     border-radius: 15px;
-    border: none;
+    border: 2px solid black;
     background-color: rgb(153, 224, 245);
     height: 35px;
     width: 170px;
@@ -149,7 +150,7 @@ a {
     display: flex;
     align-items: center; 
     border-radius: 15px;
-    border: none;
+    border: 2px solid black;
     background-color: rgb(153, 224, 245);
     height: 35px;
     width: 170px;
