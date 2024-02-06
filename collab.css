@@ -31,3 +31,7 @@
     color: #000000;
 
 */
+.all_menu a {
+    display: flex;
+   align-items: flex-end;
+}

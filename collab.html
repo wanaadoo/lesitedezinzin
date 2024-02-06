@@ -24,7 +24,11 @@
             
             <br>
             
-            
+             <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">
+                <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
+                &nbsp;&nbsp;
+                <button class="search_button" type="submit">🔎</button>
+            </form>
             
             <div>
                 <div  class="menu">
@@ -32,16 +36,11 @@
                     <a class="mod" href="mod.html"><span>Mod</span></a>
                     <a class="part" href="part.html"><span>Part</span></a>
                     <a class="contact" href="contact.html"><span>Contact</span></a>
-                    <a class="activer collab" href="collab.html"><span>Collab</span></a>
-                    
+                    <a class="activer collab" href="collab.html"><span>Collab</span></a>    
                 </div>
             </div>
 
-            <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">
-                <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
-                &nbsp;&nbsp;
-                <button class="search_button" type="submit">🔎</button>
-            </form>
+           
             
             <script>
                 function chercher() {
