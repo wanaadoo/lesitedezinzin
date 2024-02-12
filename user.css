@@ -167,3 +167,6 @@ a {
     border: none;
     background-color: rgb(122, 122, 122);
 }
+.sign_in {
+    text-shadow: 1px 1px 4px rgb(91, 197, 230);
+}
