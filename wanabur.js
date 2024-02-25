@@ -1,4 +1,5 @@
-var error_p = document.getElementById("error_p");
+var monElement = document.getElementById("errop_p");
+monElement.textContent = "Nouveau contenu textuel";
 function chercher() {
     var a = document.getElementById("search-bar").value.trim().toLowerCase();
    
@@ -28,12 +29,11 @@ function chercher() {
     };
     
 
-   
+    
 
     if (redirections[a]) {
         window.location.href = redirections[a];
     } else if(!redirections[a]){
-        error_p.textContent = "Your  search ' " + a.value + " ' was not found !"
-        window.location.href = "../ereur.html";
+        window.location.href = "/ereur.html";
     }
 }        
