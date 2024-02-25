@@ -36,10 +36,11 @@ body {
 .all_menu {
     display: flex;
     justify-content:  space-between;
+    margin: 10px;
 }
 /* Fonctionne pas ! */
-.all_menu.search {
-    align-items: center;
+.all_menu .search {
+
 }
 /* Menu */
 .menu1:hover,
@@ -145,9 +146,9 @@ h1 {
 }
 /* collab */
 .collab_description {
-    display: flex;
-    justify-content: center;
     text-align: center;
+    margin: 50px;
+    margin-bottom: 100px;
 }
 .box_jeb {
     display: flex;
@@ -249,7 +250,8 @@ Loader de la page
   
 @keyframes eat {
   0%, 49% { border-right-color: #FFF }
-  50%, 100% { border-right-color: #0000 }}
+  50%, 100% { border-right-color: #0000 }
+}
   
 @keyframes move {
   0% { left: 75px ; opacity: 1}
@@ -264,7 +266,6 @@ body.loaded .loader-wrapper {
     text-shadow: 2 2 2  #FFF;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     text-align: center;
     font-size: 40px;

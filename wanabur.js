@@ -1,5 +1,8 @@
-var monElement = document.getElementById("errop_p");
-monElement.textContent = "Nouveau contenu textuel";
+var monElement = document.getElementById("error_p");
+const searchParams = new URLSearchParams(window.location.search);
+if (searchParams.has("value")){
+monElement.textContent = "Your search '" + searchParams.get("value") + "' was not found"
+}
 function chercher() {
     var a = document.getElementById("search-bar").value.trim().toLowerCase();
    
@@ -34,6 +37,6 @@ function chercher() {
     if (redirections[a]) {
         window.location.href = redirections[a];
     } else if(!redirections[a]){
-        window.location.href = "/ereur.html";
+        window.location.href = "/ereur.html?value="+a;
     }
 }        
