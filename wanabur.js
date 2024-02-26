@@ -28,7 +28,8 @@ function chercher() {
         "japen 17": "/japen/japen17.html",
         "japen 18": "/japen/japen18.html",
         "japen 19": "/japen/japen19.html",
-        "vortex": "/vortex.html"
+        "vortex": "/vortex.html",
+        "collab": "/collab.html"
     };
     
 

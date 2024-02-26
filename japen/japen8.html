@@ -5,53 +5,44 @@
     <title>Wanabur Ps</title>
     <link rel="stylesheet" href="/test.css">
     <link rel="stylesheet" href="/user.css">
+    <link rel="stylesheet" href="/collab.css">
     <link rel="stylesheet" href="/japen.css">
-    <script src="/wanabur.js"></script>
+    <script src="/wanabur.js" defer></script>
 </head>
 <body>
 
-
-
-    <div class="loader-wrapper">
-        <div class="loader"></div>
-    </div>
-
-
     
-        <h1 class="title-shadow">Welcome to the Walbur's and Wanadoo's site</h1>
-        <br>
-        <hr>
-        
+    
+        <h1 class="title-shadow">Wanabur site</h1>
 
         
-        <bar-menu>
+        <hr>
+
+        <div class="all_menu">
+            
+            <div id="form">
+                <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">                    
+                    <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
+                    <button class="search_button" type="submit">🔎</button>
+                </form>
+            </div>
+            
             <div>
                 <div  class="menu">
                     <a class="menu1"  href="/prsite.html"><span>Menu</span></a>
                     <a class="mod" href="/mod.html"><span>Mod</span></a>
                     <a class="part" href="/part.html"><span>Part</span></a>
                     <a class="contact" href="/contact.html"><span>Contact</span></a>
-                    <a class="collab activer" href="/collab.html"><span>Collab</span></a>
-                    
+                    <a class="activer collab" href="/collab.html"><span>Collab</span></a>    
                 </div>
             </div>
-        </bar-menu>
-
-
-        <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">
-            <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
-            &nbsp;&nbsp;
-            <button class="search_button" type="submit">🔎</button>
-        </form>
+            
+        </div>
         
-       
-
-
-        <br><hr><br><br><br><br>
-        <h2>Japen 8th</h2>
-        <br><br><br>
+        <hr>
+        <h2 id="japen_p">Japen 8th</h2>
         <div style="display: flex; justify-content: center; width: 100%;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LvEoRBVmFvo?si=xuRw6hxlDqvvW9gr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>x        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LvEoRBVmFvo?si=xuRw6hxlDqvvW9gr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
 

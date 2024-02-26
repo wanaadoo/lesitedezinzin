@@ -40,3 +40,7 @@ h2 {
     flex-direction: row;
     margin: 0;
 }
+#japen_p {
+    margin: 30px;
+    color: rgb(115, 249, 249);
+}
