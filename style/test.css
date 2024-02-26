@@ -7,10 +7,6 @@ body {
     color: rgb(67, 47, 195);
     background-color: rgb(189, 223, 238) ;
 }
-#form {
-    display: flex;
-    justify-content: space-evenly;
-}
 /* hover menu */
 .menu1:hover {
     border-radius: 5px;

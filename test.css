@@ -38,10 +38,6 @@ body {
     justify-content:  space-between;
     margin: 10px;
 }
-/* Fonctionne pas ! */
-.all_menu .search {
-
-}
 /* Menu */
 .menu1:hover,
 .mod:hover,
@@ -263,10 +259,8 @@ body.loaded .loader-wrapper {
   display: none;
 }
 .error-middle {
-    text-shadow: 2 2 2  #FFF;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    text-align: center;
+    margin: 150px;
     font-size: 40px;
 }
