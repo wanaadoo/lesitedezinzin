@@ -29,7 +29,12 @@ function chercher() {
         "japen 18": "/japen/japen18.html",
         "japen 19": "/japen/japen19.html",
         "vortex": "/vortex.html",
-        "collab": "/collab.html"
+        "contact": "/contact.html",
+        "collab": "/collab.html",
+        "part": "/part.html",
+        "parts": "/part.html", 
+        "mod": "/mod.html",
+        "mods": "/mod.html"
     };
     
 
@@ -41,3 +46,7 @@ function chercher() {
         window.location.href = "/ereur.html?value="+a;
     }
 }        
+
+function handleDiscordClick() {
+    alert('You can contact me with my discord "walbur" or on a penspinning serveur like the FPSB !');
+}

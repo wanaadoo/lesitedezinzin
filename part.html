@@ -4,87 +4,41 @@
     <meta charset="UTF-8">
     <title>Wanabur Ps</title>
     <link rel="stylesheet" href="test.css">
-    <link rel="stylesheet" href="/user.css">
-    <script src="wanabur.js"></script>
+    <link rel="stylesheet" href="user.css">
+    <link rel="stylesheet" href="collab.css">
+    <link rel="stylesheet" href="japen.css">
+    <script src="wanabur.js" defer></script>
 </head>
 <body>
 
-    <div class="loader-wrapper">
-        <div class="loader"></div>
-    </div>
     
+    
+        <h1 class="title-shadow">Wanabur site</h1>
 
-        <h1 class="title-shadow">Welcome to the Walbur's and Wanadoo's site</h1>
-        <br>
+        
         <hr>
-        
 
-        
-        
-       
-        <div class="menu">
-            <a class="menu1"  href="prsite.html"><span>Menu</span></a>
-            <a class="mod" href="mod.html"><span>Mod</span></a>
-            <a class="activer part" href="part.html"><span>Part</span></a>
-            <a class="contact" href="contact.html"><span>Contact</span></a>
-            <a class="collab" href="collab.html"><span>Collab</span></a>
-           
+        <div class="all_menu">
+            
+            <div id="form">
+                <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">                    
+                    <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
+                    <button class="search_button" type="submit">🔎</button>
+                </form>
+            </div>
+            
+            
+            <div  class="menu">
+                <a class="menu1"  href="prsite.html"><span>Menu</span></a>
+                <a class="mod" href="mod.html"><span>Mod</span></a>
+                <a class="activer part" href="part.html"><span>Part</span></a>
+                <a class="contact" href="contact.html"><span>Contact</span></a>
+                <a class="collab" href="collab.html"><span>Collab</span></a>    
+            </div>
+            
         </div>
-
-
-        <form class="search" action="#" method="get" onsubmit="event.preventDefault(); chercher()">
-            <input type="text" id="search-bar" class="search_bar" value="" placeholder="Search..." />
-            &nbsp;&nbsp;
-            <button class="search_button" type="submit">🔎</button>
-        </form>
         
-        <script>
-            function chercher() {
-                var a = document.getElementById("search-bar").value.trim().toLowerCase();
-        
-                var redirections = {
-                    "jeb": "/japen.html",
-                    "japen": "/japen.html",
-                    "japen 1": "/japen/japen1.html",
-                    "japen 2": "/japen/japen2.html",
-                    "japen 3": "/japen/japen3.html",
-                    "japen 4": "/japen/japen4.html",
-                    "japen 5": "/japen/japen5.html",
-                    "japen 6": "/japen/japen6.html",
-                    "japen 7": "/japen/japen7.html",
-                    "japen 8": "/japen/japen8.html",
-                    "japen 9": "/japen/japen9.html",
-                    "japen 10": "/japen/japen10.html",
-                    "japen 11": "/japen/japen11.html",
-                    "japen 12": "/japen/japen12.html",
-                    "japen 13": "/japen/japen13.html",
-                    "japen 14": "/japen/japen14.html",
-                    "japen 15": "/japen/japen15.html",
-                    "japen 16": "/japen/japen16.html",
-                    "japen 17": "/japen/japen17.html",
-                    "japen 18": "/japen/japen18.html",
-                    "japen 19": "/japen/japen19.html",
-                    "vortex": "/vortex.html"
-                };
-        
-                if (redirections[a]) {
-                    window.location.href = redirections[a];
-                } else {
-                    window.location.href = "/ereur.html";
-                }
-            }
-        </script>
-        
-        <br><hr><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-       
-
-
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-              document.body.classList.add("loaded");
-            });
-          </script>
+        <hr>
 
           
 
