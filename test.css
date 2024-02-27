@@ -1,15 +1,19 @@
 /* body et le reste */
-a {
-    text-decoration: none;
-}
-input {
-    caret-color: rgb(12, 137, 210);
-}
 body {
     overflow-x: hidden;
     height: 100vh;
     background-color: rgb(122, 122, 122);
     margin: 0;
+}
+.pr-p {
+    font-size: 18px;
+}
+.st-pr-p {
+    font-size: 25px;
+    margin: 40px;
+}
+a {
+    text-decoration: none;
 }
 .collab_jeb {
     gap: 35px;
@@ -17,15 +21,11 @@ body {
     display: flex;
     justify-content: space-around;
 }
-::selection {
-    color: rgb(67, 47, 195);
-    background-color: rgb(189, 223, 238) ;
-}
 .error {
     display: flex;
     justify-content: baseline;
     text-align: end;
-  text-align: end;
+    text-align: end;
 }
 .error-title {
     display: flex;
@@ -38,7 +38,6 @@ body {
     justify-content:  space-between;
     margin: 10px;
 }
-/* Menu */
 .menu1:hover,
 .mod:hover,
 .part:hover,
@@ -183,7 +182,9 @@ h1 {
     text-align: center;
     color: rgb(159, 255, 255);
 }
-.board_link:hover {
+.board_link
+
+:hover {
     transform: scale(1.2);
 }
 .lien-image img {
@@ -193,10 +194,13 @@ h1 {
     transform: scale(1.2);
     transition: transform 0.3s ease-in-out;
 }   
-/* vortex */ 
-.img_presentation {
-    height: 150px;
-    margin-left: 44%;
+/* vortex */
+#vt_img {
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 43%;
 }
 /* text align  */
 .aligner {
@@ -214,4 +218,7 @@ h1 {
     justify-content: center;
     margin: 150px;
     font-size: 40px;
+}
+#vt-tt {
+    font-size: 50px;
 }
