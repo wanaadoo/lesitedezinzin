@@ -34,7 +34,8 @@ function chercher() {
         "part": "/part.html",
         "parts": "/part.html", 
         "mod": "/mod.html",
-        "mods": "/mod.html"
+        "mods": "/mod.html",
+        "fpsb": "/fpsb-x.html"
     };
     
 

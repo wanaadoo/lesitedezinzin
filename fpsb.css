@@ -1,0 +1,39 @@
+[id^="boite_fr"] {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(100, 191, 219);
+    border: 0.22em solid rgb(15, 15, 15);
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 1px;
+    text-decoration: none; 
+    color: black;
+    vertical-align: top; 
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.5s;
+    box-shadow: 
+    1rem 1rem 0 -0.22rem #ceeef8,
+    1rem 1rem 0 0 black;
+}
+[id^="boite_fr"]:hover {
+    box-shadow: 
+    0.5em 0.5em 0 -0.22rem #ceeef8,
+    0.5em 0.5em 0 0 black;
+}
+[id^="boite_fr"] h4 p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+.choix_fpsb-x {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+}
