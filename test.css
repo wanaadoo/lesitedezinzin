@@ -5,6 +5,9 @@ body {
     background-color: rgb(122, 122, 122);
     margin: 0;
 }
+#jojo-ref {
+    opacity: 0%;
+}
 .pr-p {
     font-size: 18px;
 }
@@ -37,6 +40,11 @@ a {
     display: flex;
     justify-content:  space-between;
     margin: 10px;
+}
+hr {
+    height: 2px;
+    border: none;
+    background-color:rgb(230, 230, 230);
 }
 .menu1:hover,
 .mod:hover,
