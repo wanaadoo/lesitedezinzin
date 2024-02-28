@@ -5,6 +5,10 @@ body {
     background-color: rgb(122, 122, 122);
     margin: 0;
 }
+#logo {
+    height: 100px;
+    margin: 10px 0px 0px 44%;
+}
 #jojo-ref {
     opacity: 0%;
 }
@@ -213,6 +217,13 @@ h1 {
     margin-left: 43%;
 }
 /* text align  */
+#p-spinner {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+    color: #ceeef8;
+    font-size: 25px;
+}
 .aligner {
     position: relative;
     justify-content: space-between;

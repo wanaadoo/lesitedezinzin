@@ -66,3 +66,31 @@ function chercher() {
 function handleDiscordClick() {
     alert('You can contact me with my discord "walbur" or on a penspinning serveur like the FPSB !');
 }
+
+function home() {
+    window.location.href = "/prsite.html";
+}
+
+function japen() {
+    window.location.href = "/japen.html"
+}
+
+function fpsb_x() {
+    window.location.href = "/fpsb-x.html"
+}
+
+function collab() {
+    window.location.href = "/collab.html"
+}
+
+function contact() {
+    window.location.href = "/contact.html"
+}
+
+function Part() {
+    window.location.href = "/part.html";
+}
+
+function mod() {
+    window.location.href = "/mod.html"
+}
