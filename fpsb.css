@@ -11,13 +11,14 @@
     vertical-align: top; 
     text-align: center;
     text-decoration: none;
-    transition: box-shadow 0.7s;
+    padding: 7px;
+    transition: box-shadow 1s;
     box-shadow: 
     1rem 1rem 0 -0.22rem #ceeef8,
     1rem 1rem 0 0 black;
 }
 [id^="boite_fr"]:hover {
-    box-shadow: 
+    box-shadow:
     0.5em 0.5em 0 -0.22rem #ceeef8,
     0.5em 0.5em 0 0 black;
 }

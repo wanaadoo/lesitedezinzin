@@ -35,7 +35,22 @@ function chercher() {
         "parts": "/part.html", 
         "mod": "/mod.html",
         "mods": "/mod.html",
-        "fpsb": "/fpsb-x.html"
+        "fpsb": "/fpsb-x.html",
+        "fpsb x": "/fpsb-x.html",
+        "fpsbx": "/fpsb-x.html",
+        "fpsb-x": "/fpsb-x.html",
+        "fpsb 1": "/fpsb-x/fpsb1.html",
+        "fpsb 2": "/fpsb-x/fpsb2.html",
+        "fpsb 3": "/fpsb-x/fpsb3.html",
+        "fpsb 4": "/fpsb-x/fpsb4.html",
+        "fpsb 5": "/fpsb-x/fpsb5.html",
+        "fpsb 6": "/fpsb-x/fpsb6.html",
+        "fpsb 7": "/fpsb-x/fpsb7.html",
+        "fpsb 8": "/fpsb-x/fpsb8.html",
+        "fpsb 9": "/fpsb-x/fpsb9.html",
+        "fpsb 10": "/fpsb-x/fpsb10.html",
+        "fpsb 11": "/fpsb-x/fpsb11.html",
+        "fpsb 12": "/fpsb-x/fpsb12.html",
     };
     
 
