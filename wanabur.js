@@ -51,6 +51,13 @@ function chercher() {
         "fpsb 10": "/fpsb-x/fpsb10.html",
         "fpsb 11": "/fpsb-x/fpsb11.html",
         "fpsb 12": "/fpsb-x/fpsb12.html",
+        "spinner": "/spinner.html",
+        "modder": "/spinner.html",
+        "spinners": "/spinner.html",
+        "modders": "/spinner.html",
+        "history": "/spinner.html",
+        "board": "/spinner.html",
+        "boards": "/spinner.html",
     };
     
 

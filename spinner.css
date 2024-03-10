@@ -1,0 +1,78 @@
+#spinner-box {
+    background-color: blue;
+    background-image: url(/photo/frost-bt.png);
+    background-position: center;
+    background-size: contain;
+    height: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+#a-center {
+    height: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+#p-spinner-modder  {
+    padding: 50px 0px 30px 0px;
+}
+#p-spinner-modder p {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+#diff-spin-mod {
+    display:flex;
+    justify-content:space-around;
+    
+}
+#diff-spin-mod p {
+    display: flex;
+    align-items: center;
+}
+#spinner-modder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#diff-spin-mod  {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 75px;
+    border-radius: 15px;
+}
+#diff-spin-mod img {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+#diff-spin-mod:active {
+    animation: largeur 1s ;
+    transform-origin: center center; 
+}
+@keyframes largeur {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
