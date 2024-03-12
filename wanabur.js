@@ -58,6 +58,7 @@ function chercher() {
         "history": "/spinner.html",
         "board": "/spinner.html",
         "boards": "/spinner.html",
+        "jojo": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjj5Mjm2OuEAxVaTKQEHTtKCl0QFnoECAcQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJoJo%2527s_Bizarre_Adventure&usg=AOvVaw12kTJBI1rF9O_MdlhZ4yai&opi=89978449",
     };
     
 

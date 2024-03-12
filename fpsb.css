@@ -46,3 +46,71 @@
     margin: 40PX 0PX 100PX 40%;
     border-radius: 15px;
 }
+#history-fpsb {
+    font-family: "Seymour One", sans-serif;
+    margin: 30px 0 0 0;
+}
+.center-texte-history {
+    text-align: center;
+}
+#fpsb-history-center {
+    font-family: "Lemon", serif;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+#more-about-fpsb {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+#more-about-fpsb a {
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+    background-color: rgb(122, 122, 122);
+    border: solid 4px aqua;
+    border-radius: 15px;
+    transition: font-size 0.2s ease-out;
+    font-size: 30px;
+}
+#more-about-fpsb a:hover {
+    transition: background-color 0.5s ease-in-out;
+    background-color:rgb(157, 157, 157) ;
+}
+#anim-btn  :active  {
+    transition: font-size 0.2s ease-out;
+    font-size: 35px;
+}
+p span {
+    margin-right: 5px;
+}
+.lot-spinners-modders {
+    padding: 50px;
+}
+#fpsb-people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#fpsb-people a {
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+.spinners-modders-cases {
+    padding: 30px;
+    margin: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+}
+.height-width-seventy a {
+    height:70px;
+    width: 70px;
+}

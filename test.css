@@ -1,4 +1,67 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Gloria+Hallelujah&family=Lemon&family=Modak&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&display=swap');
+/*Vrm pas mal pour du p mais peut aussi aller pour tt je pense */
+.lemon-regular {
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Gloria+Hallelujah&family=Modak&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&display=swap');
+/*Maybe for the h2, h3*/
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&display=swap');
+/*Maybe for the p */
+.della-respira-regular {
+    font-family: "Della Respira", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&display=swap');
+/*Pour les gros textes genre h1*/
+.seymour-one-regular {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Shadows+Into+Light+Two&display=swap');
+.shadows-into light two-regular {
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
+.nanum-pen script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Pacifico&display=swap');
+oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 /* body et le reste */
+::selection {
+    color: rgb(245, 245, 245);
+    background-color: rgb(68, 124, 179);
+}
 body {
     overflow-x: hidden;
     height: 100vh;
@@ -181,12 +244,27 @@ h1 {
 }
 /* board */
 .all_board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 10px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin:75px 0 100px 0;
 }
 .board_link {
-    margin: 7px;
+    padding: 7px;
+}
+@keyframes size {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.board_link img {
+    transition: transform 0.5s ease-in-out; /* Utilisez "transform" au lieu de "size" ici */
 }
 .board_pic { 
     height: 75px;

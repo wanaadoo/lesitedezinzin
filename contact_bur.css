@@ -11,7 +11,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,20 +20,16 @@
     transition: scale(1);
     transition: 0.4s ;
 }
-.item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-.item i {
+.item svg {
     font-size: 2rem;
     color: black;
+    display: flex;
+    justify-content: center;
 }
-.item i:hover {
+.item svg:hover {
     transform: rotateX(360deg);
 }
-.icon {
+.insta {
     transition: 0.4s ease;
     z-index: 2;
 }
@@ -65,14 +60,14 @@
     justify-content: center;
     text-decoration: none;
 }
-.items i {
+.items svg {
     font-size: 2rem;
     color: black;
 }
-.items i:hover {
+.items svg:hover {
     transform: rotateX(360deg);
 }
-.items:hover i {
+.items:hover svg {
     color: white;
 }
 .twitter {
@@ -92,98 +87,6 @@
 }
 .Tw:hover {
     color: white;
-}
-/* Tik-tok */
-.itemst {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(153, 224, 245);
-    border: 2px solid black;
-    transform: scale(1);
-    transition: scale(1);
-    transition: 0.4s ;
-}
-.itemst a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-.itemst i {
-    font-size: 2rem;
-    color: black;
-}
-.itemst i:hover {
-    transform: rotateX(360deg);
-}
-.itemst:hover i {
-    color: white;
-    filter:drop-shadow(2px 2px 0px rgb(255, 0, 0)) drop-shadow(-0.9px -1.3px 0px rgb(0, 217, 255)) ;
-}
-.tiktok {
-    transition: 0.4s ease;
-    z-index: 2;
-}
-.itemst:hover {
-    transform: scale(1.5);
-    transition: scale(1);
-    transition: 0.4s ;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-}
-.icon {
-    color: white;
-}
-.Ti:hover {
-    color: white;
-}
-/* Discord */
-.itemd {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:rgb(153, 224, 245);
-    border: 2px solid black;
-    transform: scale(1);
-    transition: scale(1);
-    transition: 0.4s ;
-}
-.itemd a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-.itemd i {
-    font-size: 2rem;
-    color: black;
-}
-.itemd:hover i {
-    color: white;
-}
-.itemd i:hover {
-    transform: rotateX(360deg);
-}
-.discord {
-    transition: 0.4s ease;
-    z-index: 2;
-}
-.itemd:hover {
-    transform: scale(1.5);
-    transition: scale(1);
-    transition: 0.4s ;
-    background: rgb(114,137,218);
-    border: 2px solid white;
 }
 /* Youtube */
 .item_ytb {
@@ -206,14 +109,14 @@
     justify-content: center;
     text-decoration: none;
 }
-.item_ytb i {
+.item_ytb svg {
     font-size: 2rem;
     color: black;
 }
-.item_ytb:hover i {
+.item_ytb:hover svg {
     color:#db1811;
 }
-.item_ytb i:hover {
+.item_ytb svg:hover {
     transform: rotateX(360deg);
 }
 .youtube {
@@ -268,4 +171,100 @@
 }
 .item_mail img:hover {
     transform: rotateX(360deg);
+}
+svg {
+    width: 34px;
+    height: auto;
+}
+/* Tik tok*/
+.itemst {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(153, 224, 245);
+    border: 2px solid black;
+    transform: scale(1);
+    transition: scale(1);
+    transition: 0.4s ;
+}
+.itemst a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.itemst svg {
+    font-size: 2rem;
+    color: black;
+}
+.itemst svg:hover {
+    transform: rotateX(360deg);
+}
+.itemst:hover svg {
+    color: white;
+    filter:drop-shadow(2px 2px 0px rgb(255, 0, 0)) drop-shadow(-0.9px -1.3px 0px rgb(0, 217, 255)) ;
+}
+.tiktok {
+    transition: 0.4s ease;
+    z-index: 2;
+}
+.itemst:hover {
+    transform: scale(1.5);
+    transition: scale(1);
+    transition: 0.4s ;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.icon {
+    color: white;
+}
+.Ti:hover {
+    color: white;
+}
+/* Discord (fonctionnel) */
+.itemd {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(153, 224, 245);
+    border: 2px solid black;
+    transform: scale(1);
+    transition: scale(1);
+    transition: 0.4s ;
+}
+.itemd a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.itemd svg {
+    font-size: 2rem;
+    color: black;
+}
+.itemd:hover svg {
+    color: white;
+}
+.itemd svg:hover {
+    transform: rotateX(360deg);
+}
+.discord {
+    transition: 0.4s ease;
+    z-index: 2;
+}
+.itemd:hover {
+    transform: scale(1.5);
+    transition: scale(1);
+    transition: 0.4s ;
+    background: rgb(114,137,218);
+    border: 2px solid white;
 }
