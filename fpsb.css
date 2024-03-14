@@ -60,6 +60,7 @@
     line-height: 1.7;
 }
 #more-about-fpsb {
+    font-family: "Seymour One", sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 0 0 50px 0;
@@ -75,23 +76,46 @@
     font-size: 30px;
 }
 #more-about-fpsb a:hover {
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.9s ease-in-out;
     background-color:rgb(157, 157, 157) ;
 }
 #anim-btn  :active  {
-    transition: font-size 0.2s ease-out;
-    font-size: 35px;
+    animation: largeur 1s ;
+    transform-origin: center center; 
+}
+@keyframes largeur {
+    0% {
+        scale: 1;
+    }
+
+    25% {
+        scale: 1.2;
+    }
+
+    50% {
+        scale: 1;
+    }
+
+    75% {
+        scale: 1.2;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 p span {
     margin-right: 5px;
 }
 .lot-spinners-modders {
     padding: 50px;
+    font-family: "Lemon", serif;
 }
 #fpsb-people {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
 }
 #fpsb-people a {
     text-decoration: none;
@@ -100,17 +124,16 @@ p span {
 }
 .spinners-modders-cases {
     padding: 30px;
-    margin: 30px;
     height: 70px;
     width: 70px;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: rgb(105, 175, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px black solid;
 }
-.height-width-seventy a {
-    height:70px;
-    width: 70px;
+.spinners-modders-cases :active {
+    animation: largeur 0.4s ;
+    transform-origin: center center; 
 }

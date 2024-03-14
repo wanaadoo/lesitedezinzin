@@ -7,7 +7,7 @@ function chercher() {
     var a = document.getElementById("search-bar").value.trim().toLowerCase();
    
     var redirections = {
-        "jeb": "/japen.html",
+        "jeb": "/jeb.html",
         "japen": "/japen.html",
         "japen 1": "/japen/japen1.html",
         "japen 2": "/japen/japen2.html",
@@ -35,7 +35,7 @@ function chercher() {
         "parts": "/part.html", 
         "mod": "/mod.html",
         "mods": "/mod.html",
-        "fpsb": "/fpsb-x.html",
+        "fpsb": "/fpsb-history.html",
         "fpsb x": "/fpsb-x.html",
         "fpsbx": "/fpsb-x.html",
         "fpsb-x": "/fpsb-x.html",
@@ -59,6 +59,11 @@ function chercher() {
         "board": "/spinner.html",
         "boards": "/spinner.html",
         "jojo": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjj5Mjm2OuEAxVaTKQEHTtKCl0QFnoECAcQAQ&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FJoJo%2527s_Bizarre_Adventure&usg=AOvVaw12kTJBI1rF9O_MdlhZ4yai&opi=89978449",
+        "menu": "/prsite.html",
+        "contact": "/contact.html",
+        "collab": "/collab.html",
+        "part": "/part.html",
+        "mod": "/mod.html",
     };
     
 
