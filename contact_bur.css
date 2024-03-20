@@ -5,6 +5,7 @@
 .text_bur {
     display: flex;
     justify-content: center;
+    font-family: "Pacifico" , cursive;
 }
 /* Insta */
 .item {

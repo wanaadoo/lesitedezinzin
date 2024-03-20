@@ -22,12 +22,13 @@
 }
 #p-spinner-modder  {
     padding: 50px 0px 30px 0px;
+    font-family: "Pacifico" , cursive;
 }
 #p-spinner-modder p {
     margin-top: -10px;
     display: flex;
     justify-content: center;
-    color: aqua;
+    color: rgb(68, 149, 196);
 }
 #diff-spin-mod {
     display:flex;

@@ -67,6 +67,10 @@ oleo-script-regular {
     color: rgb(245, 245, 245);
     background-color: rgb(68, 124, 179);
 }
+::placeholder {
+    color: rgb(93, 182, 220);
+    font-family: "Lemon", serif;
+}
 body {
     overflow-x: hidden;
     height: 100vh;
@@ -86,11 +90,15 @@ body {
     opacity: 0%;
 }
 .pr-p {
-    font-size: 18px;
+    color: rgb(189, 223, 238);
+    font-size: 22px;
+    font-family: "Pacifico", cursive;
 }
 .st-pr-p {
+    color: rgb(189, 223, 238);
     font-size: 25px;
-    margin: 40px;
+    margin: 40px 0 30px 0;
+    font-family: "Lemon", serif;
 }
 a {
     text-decoration: none;
@@ -114,6 +122,7 @@ a {
 }
 /* Menu */
 .all_menu {
+    font-family: "Lemon", serif;
     display: flex;
     justify-content:  space-between;
     margin: 10px;
@@ -121,13 +130,14 @@ a {
 hr {
     height: 2px;
     border: none;
-    background-color:rgb(230, 230, 230);
+    background-color: rgb(189, 223, 238);
 }
 .menu1:hover,
 .mod:hover,
 .part:hover,
 .collab:hover,
 .contact:hover {
+    transition: background-color 1s;
     border-radius: 5px;
     padding: 10px 15px;
     background-color: aliceblue;
@@ -141,12 +151,13 @@ hr {
     background-color: rgb(122, 122, 122);
 }
 .menu a {
-    color: rgb(44, 98, 103);
+    color: rgb(93, 182, 220);
     text-decoration: none;
     padding: 10px 15px;
     float: right; 
 }
 .activer {
+    transition: background-color 2s;
     border-radius: 5px;
     padding: 10px 15px;
     background-color: rgb(189, 223, 238);   
@@ -181,37 +192,34 @@ h1 {
 }
 /* vidéo */
 .japen19_video_hover:hover {
-    font-size: 1.1em;
-    color: brown;
+    transition: color 1s;
+    color: rgb(189, 223, 238);
 }
 .japen19_video {
     text-decoration: none;
-    color: aqua;
+    color: rgb(93, 182, 220);
 }
 /* barre de recherche */
 .search_button {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5PX 2PX 5PX  2PX ;
-    padding-left: 5px;
-    padding-right: 5PX;
-    padding-top: 2PX;
-    padding-bottom: 2PX;
+    text-align: center;
+    padding: 3px 5px 2px  5px ;
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: rgb(147, 208, 208);
+    background-color:  rgb(189, 223, 238);
     
 }
 .search_button:hover {
     cursor:pointer;
 }
 .search_bar {
+    font-family: "Lemon", serif;
     font-size: 1.1em;
     padding-left: 20px ;
-    color: rgb(90, 86, 86);
-    background-color: rgb(159, 255, 255);
+    color: rgb(93, 182, 220);
+    background-color:  rgb(189, 223, 238);
     border-radius: 10px;
     display: flex;
     left: 10%;
@@ -229,9 +237,12 @@ h1 {
 }
 /* collab */
 .collab_description {
+    color: rgb(189, 223, 238);
     text-align: center;
     margin: 50px;
     margin-bottom: 100px;
+    font-family: "Modak", system-ui;
+    font-weight: 200;
 }
 .box_jeb {
     display: flex;
@@ -258,6 +269,10 @@ h1 {
 .board_link {
     padding: 7px;
 }
+#strings {
+    transition: size 1s  ;
+    background-color:red ;
+}
 @keyframes size {
     from {
         transform: scale(1.2);
@@ -267,7 +282,6 @@ h1 {
         transform: scale(1);
     }
 }
-
 .board_link img {
     transition: transform 0.5s ease-in-out; /* Utilisez "transform" au lieu de "size" ici */
 }
@@ -281,7 +295,8 @@ h1 {
 }
 .text_board {
     text-align: center;
-    color: rgb(159, 255, 255);
+    color: rgb(189, 223, 238);
+    font-family: "Pacifico" , cursive;
 }
 .board_link:hover {
     transform: scale(1.2);
@@ -308,6 +323,7 @@ h1 {
     margin: 0px 0px 50px 0px;
     color: #ceeef8;
     font-size: 25px;
+    font-family: "Pacifico" , cursive;
 }
 .aligner {
     position: relative;

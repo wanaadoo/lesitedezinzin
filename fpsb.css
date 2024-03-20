@@ -47,11 +47,18 @@
     border-radius: 15px;
 }
 #history-fpsb {
-    font-family: "Seymour One", sans-serif;
-    margin: 30px 0 0 0;
+    font-family: "Lemon", serif;
+    padding: none;
+    margin: none;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(189, 223, 238);
 }
 .center-texte-history {
     text-align: center;
+    color: rgb(189, 223, 238);
 }
 #fpsb-history-center {
     font-family: "Lemon", serif;
@@ -67,10 +74,10 @@
 }
 #more-about-fpsb a {
     text-decoration: none;
-    color: aqua;
+    color: rgb(130, 188, 255);
     padding: 20px;
     background-color: rgb(122, 122, 122);
-    border: solid 4px aqua;
+    border: solid 4px rgb(130, 188, 255);
     border-radius: 15px;
     transition: font-size 0.2s ease-out;
     font-size: 30px;
@@ -108,8 +115,9 @@ p span {
     margin-right: 5px;
 }
 .lot-spinners-modders {
-    padding: 50px;
+    padding: 0 30px 50px 0  ;
     font-family: "Lemon", serif;
+    color: rgb(130, 188, 255);
 }
 #fpsb-people {
     display: flex;
@@ -133,7 +141,13 @@ p span {
     align-items: center;
     border: 2px black solid;
 }
-.spinners-modders-cases :active {
+.spinners-modders-cases:active P {
     animation: largeur 0.4s ;
     transform-origin: center center; 
+}
+#kara-text {
+    font-size: 15px;
+}
+a .spinners-modders-cases p {
+    font-family: "Pacifico", cursive;
 }
