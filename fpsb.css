@@ -3,12 +3,13 @@
     width: 300px;
     height: 200px;
     background-color: rgb(100, 191, 219);
-    border: 0.22em solid rgb(15, 15, 15);
+    border: 3.6px solid rgb(0, 0, 0);
     border-radius: 6px;
     margin: 30px 0px 25px 1px;
     text-decoration: none; 
-    color: black;
-    vertical-align: top; 
+    color: rgb(32, 32, 32);
+    font-family: "Lemon", serif;
+    font-size: 13px;
     text-align: center;
     text-decoration: none;
     padding: 7px;
@@ -24,7 +25,7 @@
 }
 [id^="boite_fr"] h4 p {
     padding: 3px;
-    color: rgb(0, 0, 0);
+    color: rgb(32, 32, 32);
     text-align: center;
     text-decoration: none;
 }
@@ -38,9 +39,15 @@
     flex-direction: row;
     margin: 0;
 }
+#fps-p {
+    margin-top: 35px;
+    font-family: "Lemon", serif;
+    color: rgb(32, 32, 32);
+}
 #fpsb-x-p {
     margin: 30px;
     color: rgb(115, 249, 249);
+    font-family: "Lemon", serif;
 }
 #img-fpsb-x-playlist {
     margin: 40PX 0PX 100PX 40%;
