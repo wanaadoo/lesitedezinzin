@@ -27,6 +27,13 @@
     font-weight: 400;
     font-style: normal;
 }  
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Della+Respira&family=Gloria+Hallelujah&family=Lemon&family=Modak&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&display=swap');
+/*Pour tt*/
+.dangrek-regular {
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Shadows+Into+Light+Two&display=swap');
 .shadows-into light two-regular {
     font-family: "Shadows Into Light Two", cursive;
@@ -62,6 +69,13 @@ oleo-script-regular {
     font-weight: 400;
     font-style: normal;
 }
+/*Pour un peu tt*/
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Della+Respira&family=Gloria+Hallelujah&family=Lemon&family=Modak&family=Nanum+Pen+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Seymour+One&family=Shadows+Into+Light+Two&family=Sigmar&display=swap');
+.sigmar-regular {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* body et le reste */
 ::selection {
     color: rgb(245, 245, 245);
@@ -92,7 +106,8 @@ body {
 .pr-p {
     color: rgb(189, 223, 238);
     font-size: 22px;
-    font-family: "Pacifico", cursive;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 300;
 }
 .st-pr-p {
     color: rgb(189, 223, 238);
@@ -187,8 +202,8 @@ hr {
     color:rgb(189, 223, 238);
 }
 h1 {
-    color: aqua;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 /* vidéo */
 .japen19_video_hover:hover {
@@ -242,7 +257,9 @@ h1 {
     margin: 50px;
     margin-bottom: 100px;
     font-family: "Modak", system-ui;
-    font-weight: 200;
+    letter-spacing: 0.7px;
+    font-weight: 100;
+    font-size: 34px;
 }
 .box_jeb {
     display: flex;
@@ -268,10 +285,6 @@ h1 {
 }
 .board_link {
     padding: 7px;
-}
-#strings {
-    transition: size 1s  ;
-    background-color:red ;
 }
 @keyframes size {
     from {
@@ -317,12 +330,15 @@ h1 {
     margin-left: 43%;
 }
 /* text align  */
+
 #p-spinner {
     display: flex;
     justify-content: center;
     margin: 0px 0px 50px 0px;
-    color: #ceeef8;
-    font-size: 25px;
+    color: #bddfee;
+    background: linear-gradient(to right , #ceeef8 #bddfee );
+    font-size: 34px;
+    text-align: center;
     font-family: "Pacifico" , cursive;
 }
 .aligner {

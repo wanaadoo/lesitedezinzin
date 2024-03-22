@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     font-family: "Pacifico" , cursive;
+    background: linear-gradient(to right , #ceeef8 #bddfee );
+    font-size: 29px;
 }
 /* Insta */
 .item {
