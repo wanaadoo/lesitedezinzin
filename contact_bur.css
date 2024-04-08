@@ -2,13 +2,6 @@
     display: flex;
     justify-content: space-around;
 }
-.text_bur {
-    display: flex;
-    justify-content: center;
-    font-family: "Pacifico" , cursive;
-    background: linear-gradient(to right , #ceeef8 #bddfee );
-    font-size: 29px;
-}
 /* Insta */
 .item {
     width: 50px;
@@ -270,4 +263,81 @@ svg {
     transition: 0.4s ;
     background: rgb(114,137,218);
     border: 2px solid white;
+}
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+.typing-animation {
+  display: flex;
+  align-items: center;
+}
+.text-container {
+  overflow: hidden;
+}
+div.typing-animation.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#text_bur {
+    display: inline-block;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    color: linear-gradient(to right, #ceeef8, #bddfee);
+    font-size: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.typing-animation.active #text_bur {
+  animation: typing 4s steps(29);
+}
+@keyframes typings {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+}
+
+.animation-typing {
+  display: flex;
+  align-items: center;
+}
+
+.container-text {
+  overflow: hidden;
+}
+
+div.animation-typing.w_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#text_wanadoo {
+    display: inline-block;
+    justify-content: center;
+    font-family: "Pacifico", cursive;
+    color: linear-gradient(to right, #ceeef8, #bddfee);
+    font-size: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animation-typing.w_active #text_wanadoo {
+    animation: typings 4s steps(30);
 }

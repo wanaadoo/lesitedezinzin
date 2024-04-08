@@ -77,6 +77,9 @@ oleo-script-regular {
     font-style: normal;
 }
 /* body et le reste */
+html {
+    scroll-behavior: smooth;
+}
 ::selection {
     color: rgb(245, 245, 245);
     background-color: rgb(68, 124, 179);
@@ -94,6 +97,7 @@ body {
 #img-center {
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 #logo {
     height: 100px;
@@ -233,7 +237,7 @@ h1 {
     font-family: "Lemon", serif;
     font-size: 1.1em;
     padding-left: 20px ;
-    color: rgb(93, 182, 220);
+    color:  rgb(85, 163, 197);
     background-color:  rgb(189, 223, 238);
     border-radius: 10px;
     display: flex;
@@ -257,7 +261,7 @@ h1 {
     margin: 50px;
     margin-bottom: 100px;
     font-family: "Modak", system-ui;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.8px;
     font-weight: 100;
     font-size: 34px;
 }
@@ -286,17 +290,8 @@ h1 {
 .board_link {
     padding: 7px;
 }
-@keyframes size {
-    from {
-        transform: scale(1.2);
-    }
-
-    to {
-        transform: scale(1);
-    }
-}
 .board_link img {
-    transition: transform 0.5s ease-in-out; /* Utilisez "transform" au lieu de "size" ici */
+    transition: transform 0.5s ease-in-out;
 }
 .board_pic { 
     height: 75px;
@@ -311,16 +306,25 @@ h1 {
     color: rgb(189, 223, 238);
     font-family: "Pacifico" , cursive;
 }
-.board_link:hover {
-    transform: scale(1.2);
-}
 .lien-image img {
     transition: transform 0.3s ease-in-out;
 }
-.board_link:hover img {
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
+img.board_pic:hover  {
+    transform: scale(1.3);
 }   
+.board-img-circle img {
+    border-radius: 50%;
+}
+div .inter-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+.inter-board p {
+    color: black;
+}
 /* vortex */
 #vt_img {
     width: 176px;
@@ -340,6 +344,7 @@ h1 {
     font-size: 34px;
     text-align: center;
     font-family: "Pacifico" , cursive;
+    z-index: -1;
 }
 .aligner {
     position: relative;
@@ -354,6 +359,10 @@ h1 {
 .error-middle {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #bddfee;
+    font-family: "Seymour One", sans-serif;
     margin: 150px;
     font-size: 40px;
 }

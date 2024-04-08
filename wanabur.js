@@ -107,3 +107,30 @@ function Part() {
 function mod() {
     window.location.href = "/mod.html"
 }
+
+function jeb_board() {
+    window.alert("You can talk with jeb on Twitter in wich they are really present . ")
+}
+
+// // Fonction pour détecter le défilement
+// function handleScroll() {
+//     var text = document.getElementById('text_bur');
+//     var ref_top = document.getElementById('p-spinner');
+//     var triggerPositionTop = ref_top.getBoundingClientRect().top;
+//     var windowHeight = window.innerHeight;
+  
+//     // Si le haut ou le bas du déclencheur est visible
+//     if (triggerPosition < windowHeight) {
+//       // Ajoutez une classe pour activer l'animation
+//       document.querySelector('.typing-animation').classList.add('active');
+//       text.style.display = 'flex'
+//     } else {
+//       // Sinon, enlever la classe pour désactiver l'animation
+//       document.querySelector('.typing-animation').classList.remove('active');
+//       text.style.display = 'none';
+//     }
+//   }
+  
+//   // Ajouter un écouteur d'événements pour le défilement
+//   window.addEventListener('scroll', handleScroll);
+// Fonction pour détecter le défilement
