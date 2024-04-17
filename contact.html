@@ -15,6 +15,21 @@
 <body>
 
     
+    <span class="loader"></span>
+
+    <script>
+        const loaders = document.querySelectorAll(".loader");
+        document.addEventListener("DOMContentLoaded", function() {
+                    console.log('ça as chargé !')
+            window.addEventListener("load", function() {
+                loaders.forEach(function(loader) {
+                    loader.style.display = "none";
+
+                });
+            });
+        });
+    </script>
+    
     
     <div id="img-center">
         <img id="logo" onclick="home()" src="/photo/logo-wanabur.png" alt="Wanabur logo">
@@ -248,16 +263,13 @@
     var ref_top = document.getElementById('spinner-box');
     var triggerPositionTop = ref_top.getBoundingClientRect().bottom;
     var windowHeight = window.innerHeight;
-  
-    // Si le bas du déclencheur est visible
+
     if (triggerPositionTop  < windowHeight) {
-      // Ajoutez une classe pour activer l'animation
       document.querySelector('.typing-animation').classList.add('active');
     }
 }
   
-  // Ajouter un écouteur d'événements pour le défilement
-  window.addEventListener('scroll', handleScroll);
+window.addEventListener('scroll', handleScroll);
 
 function handleScrollWanadoo() {
     var text_w = document.getElementById('text_wanadoo');
@@ -265,13 +277,10 @@ function handleScrollWanadoo() {
     var Top = top_ref.getBoundingClientRect().bottom;
     var WindowHeight = window.innerHeight;
 
-    // Si le bas du déclencheur est visible
     if (Top < WindowHeight) {
-        // Ajoutez la classe pour activer l'animation
         
       document.querySelector('.animation-typing').classList.add('w_active');
-        // Désactivez l'écouteur d'événements une fois l'animation déclenchée pour éviter de la déclencher à nouveau
-        window.removeEventListener('scroll', handleScrollWanadoo);
+      window.removeEventListener('scroll', handleScrollWanadoo);
     }
 }
 

@@ -134,3 +134,94 @@ function jeb_board() {
 //   // Ajouter un écouteur d'événements pour le défilement
 //   window.addEventListener('scroll', handleScroll);
 // Fonction pour détecter le défilement
+const title = document.querySelector('.title')
+const leaf1 = document.querySelector('.leaf1')
+const leaf2 = document.querySelector('.leaf2')
+const bush2 = document.querySelector('.bush2')
+const mount1 = document.querySelector('.mount1')
+const mount2 = document.querySelector('.mount2')
+
+
+document.addEventListener('scroll', function() {
+    let value = window.scrollY
+    // console.log(value)
+    title.style.marginTop = value * 1.1 + 'px'
+
+    leaf1.style.marginLeft = -value + 'px'
+    leaf2.style.marginLeft = value + 'px'
+
+    bush2.style.marginBottom = -value + 'px'
+
+    mount1.style.marginBottom = -value * 1.1 + 'px'
+    mount2.style.marginBottom = -value * 1.2 + 'px'
+
+})
+
+
+const siteOfWalbur = "%c Code with love by Walbur and Wanadoo";
+console.log(
+    siteOfWalbur,
+    `font-size: 20px;
+    color: #ff0000;
+    font-family:monospace;
+    text-align: center;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:50px;
+    border:1px solid #ff0000;`
+)
+
+/* This code snippet is setting up a card flip animation effect on a webpage. Here's a breakdown of
+what each part does: */
+const flip_card = document.querySelectorAll("#flip-card")[0];
+const back_card = document.querySelectorAll("#back")[0];
+const card_container = document.querySelectorAll("#card-container")[0];
+const front = document.querySelectorAll("#front")[0];
+// const frontHover = card_container.addEventListener('mouseenter', function() {});
+// const BackHover = card_container.addEventListener('mouseleave', function() {});
+// function HoverCard() { 
+//     if (frontHover) {
+//     back_card.style.transform = "rotateY(180deg)";
+//     flip_card.style.transform = "rotateY(180deg)";
+//     setTimeout(function() {
+//         back_card.style.transform = "rotateY(0deg)";
+//         flip_card.style.transform = "rotateY(0deg)";
+//     }, 2000);
+//     } else if(BackHover){
+//         setTimeout(function() {
+//             back_card.style.transform = "rotateY(180deg)";
+//             flip_card.style.transform = "rotateY(180deg)";
+//         }, 3000);
+//     }
+// }
+// const cardContainer = document.querySelector("#card-container");
+// let timer; // Variable pour stocker l'identifiant du temporisateur
+
+// // Fonction pour démarrer l'animation et le temporisateur
+// function startAnimation() {
+//     // Démarrer l'animation en tournant toute la carte
+//     cardContainer.style.transform = "rotateY(180deg)";
+//     // Démarrer le temporisateur pour réinitialiser l'animation après 3 secondes
+//     timer = setTimeout(function() {
+//         resetAnimation();
+//     }, 3000);
+// }
+
+// // Fonction pour réinitialiser l'animation
+// function resetAnimation() {
+//     // Réinitialiser l'animation en retournant la carte à son état initial
+//     cardContainer.style.transform = "rotateY(0deg)";
+//     // Effacer le temporisateur pour éviter la réinitialisation inutile
+//     clearTimeout(timer);
+// }
+
+// // Ajouter un écouteur d'événements pour le survol
+// cardContainer.addEventListener('mouseenter', function() {
+//     startAnimation();
+// });
+
+// // Ajouter un écouteur d'événements pour lorsque la souris quitte l'élément
+// cardContainer.addEventListener('mouseleave', function() {
+//     resetAnimation();
+// });
+
